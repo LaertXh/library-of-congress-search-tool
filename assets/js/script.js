@@ -1,10 +1,11 @@
-
+var typeOf = document.querySelector("")
+var keyW = document.querySelector("")
 var search = {
-    keywords: ,
-    type: }
+    keywords: keyW.value,
+    type: typeOf.value }
 
 subEnd.addEventListener('click', function () {
 window.location.replace("results.html")
-window.localStorage.setItem("currentsearch", JSON.stringify(search))}
+window.localStorage.setItem("search", JSON.stringify(search))})
 
-mvp = JSON.parse(window.localStorage.getItem('currentsearch'))
+var searchData = JSON.parse(window.localStorage.getItem('search'))
