@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="./assets/css/style.css">
+	<title>Search Results</title>
 </head>
 <body>
-    <h1>Library of Congress Search</h1>
+	<h1>Search Results</h1>
 	<form id="search-form">
 		<label for="query">Search Query:</label>
 		<input type="text" id="query" name="query">
@@ -28,8 +23,7 @@
 		</select>
 		<button type="submit">Search</button>
 	</form>
-	<script src="index.js"></script> 
-
-    <script src="./assets/js/script.js"></script>
+	<div id="search-results"></div>
+	<script src="search-results.js"></script>
 </body>
 </html>
